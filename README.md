@@ -13,9 +13,10 @@ I created it for the following reasons:
 of sorts by turning the rotary encoder if the output is connected to a piezeo speaker.  This involves having to dynamically change the DMA interrupt time via
  ARR (Auto Reload Register) IF the change in frequency is significant enough such that the size of the waveform (in samples) must change. In any case,
 a change in frequency stops and starts the DMA transmission, though time-wise, it's not noticeable.
-8. Dynamic waveform generation. At first, I wanted an excuse to implement the CORDIC feature of the H723 (realtime), but I just ended up having the device write
-to an array of a size dependent on the output frequncy, and then have the DMA send data from that array.
+8. Dynamic waveform generation. At first, I wanted an excuse to implement the CORDIC feature of the H723 (realtime). However, I just ended up having the device write
+to an array of a size dependent on the output frequncy (upon significant frequency switch), and then have the DMA send data from that array.
 9. Pushbutton debouncing.
+10. Increased familiarity with the STM32 ecosystem
 
 ## Features
 
