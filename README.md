@@ -20,6 +20,7 @@ to an array of a size dependent on the output frequncy, and then have the DMA se
 ## Features
 
 -Square wave with 9 (10% to 90%) duty cycles. Ramp waveform with 9 (10% to 90%) symmetry settings, and a sine wave.
+
 -Rotary encoder functions as the scroll device, and the user button selects options.
 
 ![IMG_6992](https://github.com/user-attachments/assets/dc0edab3-b745-4e39-b0e3-72ba271213c1)
